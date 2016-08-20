@@ -14,13 +14,16 @@
 * WiFi does not and will not work in the forseeable future.
 
 ## Kexts:
-  - [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads)
-    - FakePCIID_Intel_HD_Graphics
-    - FakePCIID
-  - ACPIBatteryManager
-  - ApplePS2Controller
-  - IOAHCISerialATAPI_Injector
-  - USBInjectAll
+  ### Remote Download:
+    - [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads)
+     - FakePCIID_Intel_HD_Graphics
+     - FakePCIID
+  ### [Repository Pack](https://github.com/128keaton/Dell-7370-El-Capitan/blob/master/kexts.zip):
+    - *Kexts Included:*
+     - ACPIBatteryManager
+     - ApplePS2Controller
+     - IOAHCISerialATAPI_Injector
+
   
 ## Prerequisites:
   1. Increase the preallocated-DVMT:
