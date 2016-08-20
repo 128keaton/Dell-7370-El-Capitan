@@ -26,4 +26,9 @@
   1. Increase the preallocated-DVMT:
     - [Guide](https://www.firewolf.science/2015/04/guide-intel-hd-graphics-5500-on-os-x-yosemite-10-10-3/)
     - Note: I am not responsible if I break your machine, but the command I ran (matching the specs above) was just `setup_var 0x432 0x3`
+    
+## Credits:
+  * RehabMan (at TonyMacx86) - for helping me with the initial stuff
+  * Jake Lo (at OS X Latitude) - for helping me with DSDT stuff, and research
+  * Hervé (at OS X Latitude) - for research
   
