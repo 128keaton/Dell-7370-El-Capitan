@@ -6,7 +6,7 @@
 ## Specs:
 * CPU: Intel m5 6Y57
 * GPU: Intel HD 515 Graphics
-* Audio: unknown
+* Audio: ALC3246 - ALC256
 * WiFi: Intel Dual-band AC-8260 - BCM94352Z is a [work in progress](http://www.tonymacx86.com/threads/bcm94352z-causing-kernel-panics.200102/#post-1308170)
 
 ## Notes:
