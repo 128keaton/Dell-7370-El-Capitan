@@ -19,6 +19,10 @@
     - [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads)
      - FakePCIID_Intel_HD_Graphics
      - FakePCIID
+    - [BrcmPatch](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads) <- for BCM94352Z
+      - BrcmFirmwareData
+      - BrcmFirmwareRepo
+      - BrcmPatchRAM2
   
 - ### [Repository Pack](https://github.com/128keaton/Dell-7370-El-Capitan/blob/master/kexts.zip):
     - *Kexts Included:*
