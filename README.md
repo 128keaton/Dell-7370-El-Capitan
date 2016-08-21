@@ -7,18 +7,26 @@
 * CPU: Intel m5 6Y57
 * GPU: Intel HD 515 Graphics
 * Audio: ALC3246 - ALC256
-* WiFi: Intel Dual-band AC-8260 - BCM94352Z is a [work in progress](http://www.tonymacx86.com/threads/bcm94352z-causing-kernel-panics.200102/#post-1308170)
+* WiFi: Intel Dual-band AC-8260 - BCM94352Z is a drop-in replacement
 
 ## Notes:
 * `platform-id` for the GPU (after increasing the preallocated-DVMT): `0x191e0000`
 * WiFi does not and will not work in the forseeable future.
 
 ## Kexts:
+Place in /Library/Extensions, run:
+
+`sudo chmod -Rf 755 /L*/E*
+ chown -Rf 0:0 /L*/E*
+ sudo touch -f /L*/E*`
+ 
 - ### Remote Download:
   
     - [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads)
      - FakePCIID_Intel_HD_Graphics
+     - FakePCIID_Broadcom_WiFi
      - FakePCIID
+  
     - [BrcmPatch](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads) <- for BCM94352Z
       - BrcmFirmwareData
       - BrcmFirmwareRepo
@@ -29,8 +37,19 @@
      - ACPIBatteryManager
      - ApplePS2Controller
      - IOAHCISerialATAPI_Injector
+     - DisableTurboBoostBattery
+     - IntelBacklight
+     - USBInjectAll
+     - AppleHDA_ALC256
 
   
+## DSDT Patches:
+*Coming Soon*
+Required for:
+- WiFi
+- Backlight Control 
+- Audio
+
 ## Prerequisites:
   1. Increase the preallocated-DVMT:
     - [Guide](https://www.firewolf.science/2015/04/guide-intel-hd-graphics-5500-on-os-x-yosemite-10-10-3/)
