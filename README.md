@@ -48,6 +48,13 @@ Required for:
 - WiFi
 - Backlight Control 
 - Audio
+- 
+## Other:
+### Sleep (automatic, menu bar and lid seem to work fine):
+Run:
+`sudo pmset hibernatemode 0`
+`sudo rm -f /var/vm/sleepimage`
+`sudo pmset hibernatefile /dev/null`
 
 ## Prerequisites:
   1. Increase the preallocated-DVMT:
