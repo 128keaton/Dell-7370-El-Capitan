@@ -10,6 +10,16 @@
 * Audio: ALC3246 - ALC256
 * WiFi: Intel Dual-band AC-8260 - BCM94352Z is a drop-in replacement (the `config.plist` supplied has pre-applied patches)
 
+## Status:
+* GPU - Full Acceleration, with an increased preallocated-DVMT increase.
+* WiFi - Replace with BCM94352Z, `config.plist` contains all patches required
+* Audio - Works with DSDT patch.
+* Sleep - Works with DSDT patch/Terminal commands
+* Display brightness control - Works with DSDT patch.
+* SIM Card Slot - Untested
+* USB-C - Untested
+
+
 ## Prerequisites:
   1. Increase the preallocated-DVMT:
     - [Guide](https://www.firewolf.science/2015/04/guide-intel-hd-graphics-5500-on-os-x-yosemite-10-10-3/)
