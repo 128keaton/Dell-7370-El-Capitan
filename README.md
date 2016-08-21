@@ -8,7 +8,7 @@
 * CPU: Intel m5 6Y57
 * GPU: Intel HD 515 Graphics
 * Audio: ALC3246 - ALC256
-* WiFi: Intel Dual-band AC-8260 - BCM94352Z is a drop-in replacement
+* WiFi: Intel Dual-band AC-8260 - BCM94352Z is a drop-in replacement (the `config.plist` supplied has pre-applied patches)
 
 ## Notes:
 * `platform-id` for the GPU (after increasing the preallocated-DVMT): `0x191e0000`
@@ -17,11 +17,7 @@
 ## Kexts:
 Place in /Library/Extensions, run:
 
-`sudo chmod -Rf 755 /L*/E*
-
- chown -Rf 0:0 /L*/E*
- 
- sudo touch -f /L*/E*`
+`sudo chmod -Rf 755 /L*/E* && chown -Rf 0:0 /L*/E* && sudo touch -f /L*/E*`
  
 - ### Remote Download:
   
