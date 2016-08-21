@@ -41,7 +41,7 @@ Place in /Library/Extensions, run:
   
     - [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads)
      - FakePCIID_Intel_HD_Graphics
-     - FakePCIID_Broadcom_WiFi
+     - FakePCIID_Broadcom_WiFi  (install after DSDT edit)
      - FakePCIID
   
     - [BrcmPatch](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads) <- for BCM94352Z
@@ -56,9 +56,9 @@ Place in /Library/Extensions, run:
      - ApplePS2Controller (place in 'kexts/Other')
      - IOAHCISerialATAPI_Injector (place in 'kexts/Other')
      - DisableTurboBoostBattery
-     - IntelBacklight
+     - IntelBacklight (install after DSDT edit)
      - USBInjectAll
-     - AppleHDA_ALC256
+     - AppleHDA_ALC256  (install after DSDT edit)
 
 
   
