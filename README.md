@@ -24,8 +24,8 @@
   1. Increase the preallocated-DVMT:
     - [Guide](https://www.firewolf.science/2015/04/guide-intel-hd-graphics-5500-on-os-x-yosemite-10-10-3/)
     - Note: I am not responsible if I break your machine, but the command I ran (matching the specs above) was just `setup_var 0x432 0x3`
+  
     
-
 ## Notes:
 * `platform-id` for the GPU (after increasing the preallocated-DVMT): `0x191e0000`
 * WiFi does not and will not work in the forseeable future.
