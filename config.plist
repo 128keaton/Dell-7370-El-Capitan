@@ -27,9 +27,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUhDMQ==</data>
+					<data>
+					RUhDMQ==
+					</data>
 					<key>Replace</key>
-					<data>RUgwMQ==</data>
+					<data>
+					RUgwMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -37,17 +41,25 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUhDMg==</data>
+					<data>
+					RUhDMg==
+					</data>
 					<key>Replace</key>
-					<data>RUgwMg==</data>
+					<data>
+					RUgwMg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
 					<key>Find</key>
-					<data>RUhDMQ==</data>
+					<data>
+					RUhDMQ==
+					</data>
 					<key>Replace</key>
-					<data>RUgwMQ==</data>
+					<data>
+					RUgwMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -55,9 +67,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>TUVJXw==</data>
+					<data>
+					TUVJXw==
+					</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -94,13 +110,14 @@
 			<string>SSDT-3.aml</string>
 			<string>SSDT-4.aml</string>
 			<string>SSDT-5.aml</string>
-			<string>SSDT-13.aml</string>
+			<string>SSDT-6.aml</string>
+			<string>SSDT-14.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0 dart=0 nv_disable=1 kext-dev-mode=1 -v</string>
+		<string>slide=0 dart=0 nv_disable=1 kext-dev-mode=1 </string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -121,7 +138,12 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>1</string>
+			<string>3</string>
+		</dict>
+		<key>FakeID</key>
+		<dict>
+			<key>WIFI</key>
+			<string>0x43a014E4</string>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -169,7 +191,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Latitude</string>
+		<string>minimalism-ob</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -211,133 +233,269 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>10.11-BCM94352-Whitelest-0x4353-MacBoolAir5,2</string>
+				<key>Find</key>
+				<data>
+				TWFjLUM2RUZBNjM5NjJGQzZFQTA=
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				TWFjLTI3QURCQjdCNENFRThFNjE=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.11-BCM94352-Whitelest-0x4331-iMac14,3</string>
+				<key>Find</key>
+				<data>
+				TWFjLUM2RUZBNjM5NjJGQzZFQTA=
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				TWFjLTI3QURCQjdCNENFRThFNjE=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.11-BT4LE-Handoff-Hotspot-lisai9093</string>
+				<key>Find</key>
+				<data>
+				SIX/dEdIiwc=
+				</data>
+				<key>Name</key>
+				<string>IOBluetoothFamily</string>
+				<key>Replace</key>
+				<data>
+				Qb4PAAAA60Q=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.11-BCM94352-Airport-Extreme</string>
+				<key>Find</key>
+				<data>
+				axAAAHUN
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				axAAAJCQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.11-BCM94352-5GHz-US-FCC-dv</string>
+				<key>Find</key>
+				<data>
+				QYP8/3QsSA==
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				ZscGVVPrKw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>HD 520 HDMI</string>
 				<key>Find</key>
-				<data>AgQKAAAEAAA=</data>
+				<data>
+				AgQKAAAEAAA=
+				</data>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AgQKAAAIAAA=</data>
+				<data>
+				AgQKAAAIAAA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Enable Trim on SSD</string>
 				<key>Find</key>
-				<data>QVBQTEUgU1NE</data>
+				<data>
+				QVBQTEUgU1NE
+				</data>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAA</data>
+				<data>
+				AAAAAAAAAAAA
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AppleHDA ALC 293 #3</string>
+				<string>AppleHDA ALC 256 #3</string>
 				<key>Find</key>
-				<data>hQjsEA==</data>
+				<data>
+				YgLsEA==
+				</data>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Hand-off (10.11)</string>
 				<key>Find</key>
-				<data>SIX/dEdIiwc=</data>
+				<data>
+				SIX/dEdIiwc=
+				</data>
 				<key>Name</key>
 				<string>IOBluetoothFamily</string>
 				<key>Replace</key>
-				<data>Qb4PAAAA60Q=</data>
+				<data>
+				Qb4PAAAA60Q=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AppleHDA ALC 293 #1</string>
+				<string>AppleHDA ALC 256 #1</string>
 				<key>Find</key>
-				<data>hBnUEQ==</data>
+				<data>
+				hBnUEQ==
+				</data>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
-				<data>kwLsEA==</data>
+				<data>
+				VgLsEA==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>change 15 port limit to 30 in AppleUSBXHCIPCI</string>
 				<key>Find</key>
-				<data>g72M/v//EA==</data>
+				<data>
+				g72M/v//EA==
+				</data>
 				<key>Name</key>
 				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<data>g72M/v//Hw==</data>
+				<data>
+				g72M/v//Hw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>External icons patch</string>
 				<key>Find</key>
-				<data>RXh0ZXJuYWw=</data>
+				<data>
+				RXh0ZXJuYWw=
+				</data>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>SW50ZXJuYWw=</data>
+				<data>
+				SW50ZXJuYWw=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AppleHDA ALC 293 #2</string>
+				<string>AppleHDA ALC 256 #2</string>
 				<key>Find</key>
-				<data>hAjsEA==</data>
+				<data>
+				hQjsEA==
+				</data>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Broadcom 5Ghz US</string>
 				<key>Find</key>
-				<data>QYP8/3QsSA==</data>
+				<data>
+				QYP8/3QsSA==
+				</data>
 				<key>Name</key>
 				<string>AirPortBrcm4360</string>
 				<key>Replace</key>
-				<data>ZscGVVPrKw==</data>
+				<data>
+				ZscGVVPrKw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>AppleHDA #4</string>
+				<string>AppleHDA ALC 256 #4</string>
 				<key>Find</key>
-				<data>gxnUEQ==</data>
+				<data>
+				gxnUEQ==
+				</data>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AppleHDA ALC 256 #5</string>
+				<key>Find</key>
+				<data>
+				YQLsEA==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>HD 520 HDMI # 2</string>
 				<key>Find</key>
-				<data>AQUJAAAEAAA=</data>
+				<data>
+				AQUJAAAEAAA=
+				</data>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQUJAAAIAAA=</data>
+				<data>
+				AQUJAAAIAAA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SecondStagePatch 10.11</string>
 				<key>Find</key>
-				<data>AQAAdRc=</data>
+				<data>
+				AQAAdRc=
+				</data>
 				<key>Name</key>
 				<string>IOGraphicsFamily</string>
 				<key>Replace</key>
-				<data>AQAAdBc=</data>
+				<data>
+				AQAA6xc=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SecondStagePatch 10.12</string>
 				<key>Find</key>
-				<data>AQAAdSU=</data>
+				<data>
+				AQAAdSU=
+				</data>
 				<key>Name</key>
 				<string>disabled:IOGraphicsFamily</string>
 				<key>Replace</key>
-				<data>AQAA6yU=</data>
+				<data>
+				AQAA6yU=
+				</data>
 			</dict>
 		</array>
 	</dict>
