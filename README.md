@@ -62,8 +62,30 @@ Place in /Library/Extensions, run:
 
 
   
-## DSDT Patches:
-*Coming Soon*
+## DSDT:
+For now, use the DSDT in the repo to get you booted. Then, extract and patch your DSDT:
+### Patch list:
+- Patches used for DSDT
+     * Rename HDAS to HDEF
+     * Rename HECI to IMEI
+- From Rehabman github
+     * HDEF layout3
+     * Brightness
+     * GFX0 to IGPU
+     * Mutex
+     * HPET
+     * IRQ
+     * OS X Check Fix
+     * RTC Fix
+     * LPC Skylake
+     * USB 3.0 _pwr 0x6D Skylake
+- For SSDT-0, SSDT-2, SSDT-3, SSDT-4, SSDT-5, SSDT-6, SSDT-14
+     * GFX0 to IGPU
+- For SSDT-1
+     * GFX0 to IGPU
+     * Remove _DSM Method
+
+
 
 Required for:
 - WiFi
