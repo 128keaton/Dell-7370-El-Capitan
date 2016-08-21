@@ -52,6 +52,7 @@ Required for:
 ## Other:
 ### Sleep (automatic, menu bar and lid seem to work fine):
 Run:
+
 `sudo pmset hibernatemode 0`
 
 `sudo rm -f /var/vm/sleepimage`
