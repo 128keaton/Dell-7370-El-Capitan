@@ -56,7 +56,7 @@ Required for:
 - WiFi
 - Backlight Control 
 - Audio
-- 
+
 ## Other:
 ### Sleep (automatic, menu bar and lid seem to work fine):
 Run:
