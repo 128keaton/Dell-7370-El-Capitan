@@ -52,6 +52,7 @@ Place in /Library/Extensions, run:
   
 ## DSDT Patches:
 *Coming Soon*
+
 Required for:
 - WiFi
 - Backlight Control 
