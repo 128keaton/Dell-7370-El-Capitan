@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<root>
+  <list>
+    <item>
+      <name>Remap Brightness Keys</name>
+      <appendix>Darker, Brighter</appendix>
+      <identifier>remap.brightnesskeys</identifier>
+      <autogen>--KeyToConsumer-- KeyCode::F11, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>
+        <autogen>--KeyToConsumer-- KeyCode::F12, ConsumerKeyCode::BRIGHTNESS_UP</autogen>    
+    </item>
+  </list>
+  <list>
+    <item>
+      <name>Remaps Volume Keys</name>
+      <appendix>Mute, Up, Down</appendix>
+      <identifier>remap.volumekeys</identifier>
+	<autogen>--KeyToConsumer-- KeyCode::F1, ConsumerKeyCode::VOLUME_MUTE</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F2, ConsumerKeyCode::VOLUME_DOWN</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F3, ConsumerKeyCode::VOLUME_UP</autogen>
+    </item>
+  </list>     
+</root>
