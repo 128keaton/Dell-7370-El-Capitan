@@ -1,6 +1,7 @@
 # Dell-7370-El-Capitan
 
 ## Updates:
+21-8-16: Added more kexts, WiFi and Audio Updates
 20-8-16: Initial Posting
 
 ## Specs:
@@ -17,7 +18,9 @@
 Place in /Library/Extensions, run:
 
 `sudo chmod -Rf 755 /L*/E*
+
  chown -Rf 0:0 /L*/E*
+ 
  sudo touch -f /L*/E*`
  
 - ### Remote Download:
