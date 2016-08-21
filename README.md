@@ -48,16 +48,18 @@ Place in /Library/Extensions, run:
       - BrcmFirmwareData
       - BrcmFirmwareRepo
       - BrcmPatchRAM2
+    - [FakeSMC](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads)
   
 - ### [Repository Pack](https://github.com/128keaton/Dell-7370-El-Capitan/blob/master/kexts.zip):
     - *Kexts Included:*
-     - ACPIBatteryManager
-     - ApplePS2Controller
-     - IOAHCISerialATAPI_Injector
+     - ACPIBatteryManager (place in 'kexts/Other')
+     - ApplePS2Controller (place in 'kexts/Other')
+     - IOAHCISerialATAPI_Injector (place in 'kexts/Other')
      - DisableTurboBoostBattery
      - IntelBacklight
      - USBInjectAll
      - AppleHDA_ALC256
+
 
   
 ## DSDT Patches:
